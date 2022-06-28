@@ -1,1 +1,1 @@
-web: gunicorn pages_project.wsgi --log-file -
+web: gunicorn --pythonpath pages_project pages_project.wsgi --log-file -
